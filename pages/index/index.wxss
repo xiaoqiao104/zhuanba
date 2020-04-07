@@ -1,0 +1,66 @@
+/**index.wxss**/
+.search{
+  display: flex;
+}
+.search_mid{
+  margin: 0 auto;
+}
+.search_l{
+  display: flex;
+  float: left;
+  
+}
+.search_r{
+  float: left;
+  margin-left: 10rpx;
+}
+.bd{
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.slides{
+  margin: 20rpx;
+}
+.function{
+display: flex;
+}
+.second_hand{
+  background-color: gold;
+  float: left;
+  margin: 20rpx 30rpx;
+  border-radius: 50%;
+  width: 130rpx;
+  height:130rpx;
+  text-align: center;
+  color: gray;
+}
+.share_car{
+  background-color: gold;
+  float: left;
+  margin: 20rpx 30rpx;
+  border-radius: 50%;
+  width: 130rpx;
+  height:130rpx;
+  text-align: center;
+  color: gray;
+}
+.rent{
+  background-color: gold;
+  float: left;
+  margin: 20rpx 30rpx;
+  border-radius: 50%;
+  width: 130rpx;
+  height:130rpx;
+  text-align: center;
+  color: gray;
+}
+.specialty{
+  background-color: gold;
+  float: left;
+  margin: 20rpx 30rpx;
+  border-radius: 50%;
+  width: 130rpx;
+  height:130rpx;
+  text-align: center;
+  color: gray;
+}

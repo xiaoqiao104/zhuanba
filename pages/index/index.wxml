@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="search">
+    <view class="search_mid">
+      <view class="search_l bd">
+        <icon class="" type="search" size="30" color=""> </icon>
+        <input  type="text" placeholder="搜索你想要的"  maxlength="140" ></input> 
+     </view>
+    <view class="search_r">
+      <button class="default" size="mini"  hover-class="button-hover" hover-stop-propagation="false"
+         form-type="submit" open-type="contact" type="primary" >
+        搜索
+      </button>
+        
+    </view>
+    </view>
+      
+      
+</view>
+<view class="slides">
+  <swiper class="swiper" indicator-dots="true" indicator-color="rgba(0,0,0,.3)" autoplay="true" 
+  interval="5000" duration="1000" circular="teue" >
+  <block wx:for="{{backgroud}}" wx:key="*this">
+    <swiper-item >
+      <image class="" src="{{item}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+          <view class="swiper-item {{item}}"></view>    
+    </swiper-item>
+      
+  </block>
+    
+  </swiper>
+</view>
+<view class="fuction">
+  <navigator class="" target="" url="../second_hand/second_hand" hover-class="navigator-hover" open-type="navigate">
+    <view class="second_hand">
+    <text class="" selectable="false" space="false" decode="false">
+      二手区
+    </text>   
+  </view>
+  </navigator>
+  <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+    <view class="share_car">
+    <text class="" selectable="false" space="false" decode="false">
+      拼车区
+    </text>   
+  </view>
+  </navigator>
+  <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+    <view class="rent">
+    <text class="" selectable="false" space="false" decode="false">
+      租赁区
+    </text>   
+  </view>
+  </navigator>
+  <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+    <view class="specialty">
+    <text class="" selectable="false" space="false" decode="false">
+      特产区
+    </text>   
+  </view>
+  </navigator>  
+</view>
+  
+  
+    
+  

@@ -1,0 +1,44 @@
+/* pages/second_hand/second_hand.wxss */
+.search{
+  display: flex;
+}
+.search_mid{
+  margin: 0 auto;
+}
+.search_l{
+  display: flex;
+  float: left;
+  
+}
+.search_r{
+  float: left;
+  margin-left: 10rpx;
+}
+.bd{
+  border: 2px solid black;
+  border-radius: 10%;
+}
+.nav{
+  white-space: nowrap;
+  padding: 5rpx;
+
+}
+.nav_item{
+  padding: 20rpx 45rpx;
+  font-size: 30rpx;
+  display: inline-block;
+}
+.nav_item.active{
+  border-bottom: 3px solid pink;
+}
+image{
+  width: 150px;
+  height: 150px;
+}
+.products{
+  display: flex;
+}
+.product{
+  display: inline;
+  padding: 10rpx;
+}

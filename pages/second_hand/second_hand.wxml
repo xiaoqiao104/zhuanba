@@ -1,0 +1,61 @@
+<!--pages/second_hand/second_hand.wxml-->
+
+<!--搜索框-->
+<view class="search">
+    <view class="search_mid">
+      <view class="search_l bd">
+        <icon class="" type="search" size="30" color=""> </icon>
+        <input  type="text" placeholder="搜索你想要的"  maxlength="140" ></input> 
+     </view>
+    <view class="search_r">
+      <button class="default" size="mini"  hover-class="button-hover" hover-stop-propagation="false"
+         form-type="submit" open-type="contact" type="primary" >
+        搜索
+      </button>
+        
+    </view>
+    </view>
+      
+      
+</view>
+
+<!--二手区导航-->
+<view class="nav_wrap">
+  <scroll-view class="nav" scroll-x="true"  upper-threshold="50" lower-threshold="50" >
+    <view bindtap="activeNav" data-index="{{index}}" data-item="{{item}}" class="nav_item {{index==currentIndex?'active':''}}" wx:for="{{navList}}" wx:key="{{index}}">
+      {{item}}
+    </view>
+      
+  </scroll-view>
+    
+</view>
+  
+<!--二手区产品-->
+<view class="products">
+ 
+    <view class="product" wx:for="{{productList}}" wx:key="{{index}}">
+        <view class="product_t">
+           <image class="" src="{{item.image}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+         <view class="product_b">
+            <text class="text" selectable="false" space="false" decode="false">
+             价格：{{item.price}}
+            </text>
+              <text class="text" selectable="false" space="false" decode="false">
+              发布时间：{{item.time}}
+            </text>
+           
+         </view>
+            
+           
+           
+           
+            
+   
+    
+      
+      
+  </view>
+  
+</view>
+  

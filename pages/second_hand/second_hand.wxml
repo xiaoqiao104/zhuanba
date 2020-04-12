@@ -32,30 +32,19 @@
   
 <!--二手区产品-->
 <view class="products">
- 
-    <view class="product" wx:for="{{productList}}" wx:key="{{index}}">
+    <view class="product" wx:for="{{productList}}">
         <view class="product_t">
-           <image class="" src="{{item.image}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+           <image class="im" src="{{item.image}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
         </view>
-         <view class="product_b">
+        <view class="product_b">
             <text class="text" selectable="false" space="false" decode="false">
              价格：{{item.price}}
             </text>
-              <text class="text" selectable="false" space="false" decode="false">
+            <text class="text" selectable="false" space="false" decode="false">
               发布时间：{{item.time}}
-            </text>
-           
-         </view>
-            
-           
-           
-           
-            
-   
-    
-      
-      
-  </view>
+            </text>    
+        </view> 
+    </view>
   
 </view>
   

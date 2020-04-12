@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/information/information",
     "pages/index/index",
+    "pages/shop/shop",
     "pages/second_hand/second_hand",
-    
-    
-    
+    "pages/sell/sell",
     "pages/home/home",
     "pages/logs/logs"
   ],
@@ -28,7 +28,7 @@
         "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/sell/sell",
         "text": "省心卖",
         "iconPath": "",
         "selectedIconPath": ""

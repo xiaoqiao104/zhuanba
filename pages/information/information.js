@@ -1,30 +1,10 @@
+// pages/information/information.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    backgroud: ['../../image/demon1.jpg', '../../image/demon2.jpg', '../../image/demon3.jpg'],
-    productList: [
-      {
-        price: 50, image: '../../image/demon4.jpg', time: '2020.4.5'
-      },
-      {
-        price: 50, image: '../../image/demon5.jpg', time: '2020.4.5'
-      },
-      {
-        price: 50, image: '../../image/demon4.jpg', time: '2020.4.5'
-      },
-      {
-        price: 50, image: '../../image/demon5.jpg', time: '2020.4.5'
-      },
-      {
-        price: 50, image: '../../image/demon6.jpg', time: '2020.4.5'
-      },
-      {
-        price: 50, image: '../../image/demon7.jpg', time: '2020.4.5'
-      }
-    ]
 
   },
 

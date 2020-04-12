@@ -61,5 +61,20 @@
 </view>
   
   
-    
+ <view class="products">
+    <view class="product" wx:for="{{productList}}">
+        <view class="product_t">
+           <image class="img" src="{{item.image}}" mode="widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+         <view class="product_b">
+            <text class="text" selectable="false" space="false" decode="false">
+             价格：{{item.price}}
+            </text>
+            <text class="text" selectable="false" space="false" decode="false">
+              发布时间：{{item.time}}
+            </text>    
+         </view> 
+    </view>
+  
+</view>   
   

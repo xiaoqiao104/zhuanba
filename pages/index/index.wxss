@@ -64,3 +64,15 @@ display: flex;
   text-align: center;
   color: gray;
 }
+
+.img{
+  width: 150px;
+  height: 150px;
+}
+/* .products{
+  width: 100%;
+} */
+.product{
+  display: inline-table;
+  padding: 10rpx;
+}
